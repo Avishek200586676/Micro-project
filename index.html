@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo-List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/logo.png">
+</head>
+<body>
+  <header>
+    <div class="left-header">
+      <button class="menu"><img class="menuIcon" src="img/menu.jpg" width="20px" height="20px"></button>
+      <img src="img/logo.png" width="30px" height="20px">
+      <b>TasksBoard</b>
+    </div>
+    <input type="search" placeholder="Search">
+    <div class="right-header">
+      <img src="img/setting.png" width="20px" height="20px">
+      <img src="img/account.png" width="35px" height="35px">
+    </div>
+  </header>
+  <hr>
+  <p>
+    This is a clone of Google tasks, Its not completely interactive, but you can try adding new items to the list below using the input and press the plus button to add it. You can also use the sidebar in the left conrer by using the menu icon.
+  </p>
+  <div class="main">
+    <div class="list">
+      <h1 class="list-name"> Tonight</h1>
+      <ul class="tasks">
+        <li><div>Make Dinner</div><button>X</button></li>
+        <li>Study </li>
+      </ul>
+    </div>
+    <label>
+      <input type="text" class="add-list active" placeholder=" + Add a new list">
+      <button class="add">+</button>
+    </label>
+  </div>
+
+</body>
+<script src="script.js"></script>
+</html>
